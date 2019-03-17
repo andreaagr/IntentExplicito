@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         startActivityForResult(Intent.createChooser(intent,"Elige un video"), VIDEO_CODE)
     }
     fun realizarLlamada(){
-        val phone= "5560806952"
+        val phone= ""
         val intent= Intent()
         intent.action= Intent.ACTION_CALL
         intent.data= (Uri.parse("tel:" + phone))
